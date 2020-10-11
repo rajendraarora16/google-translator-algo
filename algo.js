@@ -1,5 +1,3 @@
-var qu = '445108.1375933507'
-
 var pu = function(a, b) {
     for (var c = 0; c < b.length - 2; c += 3) {
         var d = b.charAt(c + 2);
@@ -16,8 +14,9 @@ var ou = function(a) {
     }
 }
 
-
 ru = function(a) { 
+    //TKK default value
+    qu = "445110.1157164534";
    if (null !== qu)
         var b = qu;
     else {
